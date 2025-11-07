@@ -1,16 +1,21 @@
 {
-  "short_name": "Restaurant App",
-  "name": "Restaurant App Demo",
+  "short_name": "Delicious Bites",
+  "name": "Delicious Bites - Restaurant App",
+  "description": "Fast & Fresh Food Delivery",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any"
     }
   ],
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait-primary",
+  "theme_color": "#f97316",
+  "background_color": "#fff7ed",
+  "categories": ["food", "lifestyle", "shopping"]
 }
 
